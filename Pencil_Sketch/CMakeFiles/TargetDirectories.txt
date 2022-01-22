@@ -1,0 +1,3 @@
+/home/alireza/Documents/Daneshgah/Projects/ImageProcessing/Pencil_Sketch/CMakeFiles/rebuild_cache.dir
+/home/alireza/Documents/Daneshgah/Projects/ImageProcessing/Pencil_Sketch/CMakeFiles/edit_cache.dir
+/home/alireza/Documents/Daneshgah/Projects/ImageProcessing/Pencil_Sketch/CMakeFiles/DoSketch.dir

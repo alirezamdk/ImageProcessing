@@ -26,11 +26,11 @@ bool saveImage(Mat img, string path = "Output.png")
 
 int main(int argc, char **argv)
 {
-    // Create image variable from Mat class to store image
+    // create image variable from Mat class to store image
     Mat inputImage;
     short int ksize;
 
-    // Read image path
+    // read image path
     if (argc == 2)
     {
         inputImage = imread(argv[1], IMREAD_UNCHANGED);
@@ -60,16 +60,16 @@ int main(int argc, char **argv)
     // create variabels
     Mat grayImage, grayImageInv, blurrImage, blurrImageInv, sketchOutputImage;
 
-    // Make gray image
+    // make gray image
     cvtColor(inputImage, grayImage, COLOR_BGR2GRAY);
 
-    // Inverse gray image
+    // inverse gray image
     grayImageInv = imgInv(grayImage);
 
     // image blurring
     GaussianBlur(grayImageInv, blurrImage, Size(ksize, ksize), 0, 0);
 
-    // Inverse blurred image
+    // inverse blurred image
     blurrImageInv = imgInv(blurrImage);
 
     // divide pixel by pixel

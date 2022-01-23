@@ -1,0 +1,3 @@
+/home/alireza/Documents/Daneshgah/Projects/ImageProcessing/ImageProcessing/Watermarktin_images/CMakeFiles/edit_cache.dir
+/home/alireza/Documents/Daneshgah/Projects/ImageProcessing/ImageProcessing/Watermarktin_images/CMakeFiles/rebuild_cache.dir
+/home/alireza/Documents/Daneshgah/Projects/ImageProcessing/ImageProcessing/Watermarktin_images/CMakeFiles/Watermark.dir
